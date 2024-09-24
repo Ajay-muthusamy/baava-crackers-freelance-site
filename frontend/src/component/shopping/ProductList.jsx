@@ -314,7 +314,7 @@ const ProductList = () => {
               {Object.values(products).flat().length}
             </div>
           </div>
-          <div className="border-2 p-5 rounded-md">
+          <div className="w-40 border-2 p-5 rounded-md">
             Number of items
             <div className="border-t-2 mt-2 text-center text-2xl">
               {totalItems}
@@ -345,7 +345,7 @@ const ProductList = () => {
       </div>
 
       <div className="md:m-5 flex flex-col md:flex-row justify-center gap-5">
-        <table className=" md:w-[180vh] table-auto border-collapse border border-gray-200 overflow-x">
+        <table className="md:w-[180vh] table-auto  border border-gray-200 overflow-x">
           <thead className="bg-blue-900 text-white">
             <tr>
               <th className="border border-gray-300 ">Image</th>
@@ -405,7 +405,7 @@ const ProductList = () => {
                   </div>
                 </td>
 
-                <td className="border border-gray-300 px-1 py-1">
+                <td className="border border-gray-300 px-10 py-1">
                   Rs: {data.subtotal} .00
                 </td>
               </tr>
