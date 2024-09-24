@@ -306,7 +306,7 @@ const ProductList = () => {
   };
   return (
     <div>
-      <div className="sticky top-0 bg-white z-10 pb-2">
+      <div className=" sticky top-0 bg-white z-10 pb-2">
         <section className="grid grid-cols-2 md:grid-cols-3 gap-4 m-5 text-center font-semibold">
           <div className="hidden md:block border-2 p-5 rounded-md">
             Number of Products
@@ -314,18 +314,20 @@ const ProductList = () => {
               {Object.values(products).flat().length}
             </div>
           </div>
-          <div className=" border-2 p-5 rounded-md">
-            Number of items
-            <div className="border-t-2 mt-2 text-center text-2xl">
-              {totalItems}
+          
+            <div className=" border-2 p-5 rounded-md">
+              Number of items
+              <div className="border-t-2 mt-2 text-center text-2xl">
+                {totalItems}
+              </div>
             </div>
-          </div>
-          <div className="border-2 p-5 rounded-md">
-            Total Amount
-            <div className="border-t-2 mt-2 text-center text-2xl">
-              Rs: {totalAmount} .00
+            <div className="border-2 p-5 rounded-md">
+              Total Amount
+              <div className="border-t-2 mt-2 text-center text-2xl">
+                Rs: {totalAmount} .00
+              </div>
             </div>
-          </div>
+          
         </section>
         <div className="block md:hidden">
           <div className="flex justify-center">
@@ -344,7 +346,7 @@ const ProductList = () => {
         </div>
       </div>
 
-      <div className="md:m-5 flex flex-col md:flex-row justify-center gap-5">
+      <div className="md:m-5 flex flex-col md:flex-row justify-center gap-5  overflow-scroll">
         <table className="md:w-[180vh] table-auto  border border-gray-200 overflow-x">
           <thead className="bg-blue-900 text-white">
             <tr>
@@ -1948,10 +1950,10 @@ const ProductList = () => {
                         type="submit"
                         className={`px-4 py-2 text-white rounded-lg ${
                           totalAmount < 2500
-                            ? "bg-red-800 cursor-not-allowed" 
-                            : "bg-sky-950" 
+                            ? "bg-red-800 cursor-not-allowed"
+                            : "bg-sky-950"
                         }`}
-                        disabled={totalAmount < 2500} 
+                        disabled={totalAmount < 2500}
                       >
                         Submit
                       </button>
