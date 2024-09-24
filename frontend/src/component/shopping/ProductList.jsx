@@ -1812,7 +1812,7 @@ const ProductList = () => {
           </tbody>
         </table>
 
-        <section className="hidden md:block">
+        <section>
           <div className="flex flex-col sticky top-32 z-10 m-2 ">
             <button
               className={`text-white font-sans p-3 rounded-lg mb-5 text-1xl ${
