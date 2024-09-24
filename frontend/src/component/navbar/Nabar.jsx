@@ -13,7 +13,7 @@ const Nabar = () => {
 
   return (
     <div>
-      <nav className="flex justify-around items-center bg-blue-950 text-white font-poppins px-5">
+      <nav className="w-full flex justify-around items-center bg-blue-950 text-white font-poppins px-5">
         <div>
           <img src={logo} alt="alagu crackers logo" className="w-16 md:w-20 rounded-lg" />
         </div>

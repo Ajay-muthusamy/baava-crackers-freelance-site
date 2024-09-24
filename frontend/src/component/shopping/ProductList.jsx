@@ -314,7 +314,7 @@ const ProductList = () => {
               {Object.values(products).flat().length}
             </div>
           </div>
-          <div className="w-40 border-2 p-5 rounded-md">
+          <div className=" border-2 p-5 rounded-md">
             Number of items
             <div className="border-t-2 mt-2 text-center text-2xl">
               {totalItems}
