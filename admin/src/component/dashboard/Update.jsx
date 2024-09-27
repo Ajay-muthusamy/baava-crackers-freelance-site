@@ -1,35 +1,38 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Update = () => {
   const [content, setContent] = useState("");
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  // Make handleSubmit async to use await with axios
   const handleSubmit = async () => {
     if (!content) {
       setError("Offer content is required.");
-      setSuccess(""); // Clear success message
+      setSuccess(""); 
     } else {
-      setError(""); 
+      setError("");
       try {
-        // Define the data you are sending
+   
         const updatedData = { OfferContent: content };
 
-        // Await the axios PUT request
+
         const response = await axios.put(
-          'http://localhost:1234/user/fetch-update-offer/66ee8fa4f6e9790366a61fed',
+          "https://baava-backend-new-1.onrender.com/user/fetch-update-offer/66ee8fa4f6e9790366a61fed",
           updatedData
         );
 
-        console.log('Successfully updated offer', response.data);
-        setSuccess("Offer updated successfully!"); // Show success message
-        setContent(""); // Clear the input field after successful update
+        console.log("Successfully updated offer", response.data);
+        setSuccess("Offer updated successfully!");
+        toast.success("Text Updated");
+        setTimeout(() => navigate("/dash-board/page-updates"), 3000); 
+        setContent(""); 
       } catch (error) {
-        console.error('Error updating offer:', error);
+        console.error("Error updating offer:", error);
         setError("Error updating offer.");
-        setSuccess(""); // Clear success message
+        setSuccess("");
       }
     }
   };
@@ -63,7 +66,7 @@ const Update = () => {
 
         <button
           className={`px-6 py-2 mt-4 font-semibold rounded-lg transition duration-300 ${
-            content 
+            content
               ? "bg-teal-500 text-white hover:bg-teal-600"
               : "bg-gray-300 text-gray-500 cursor-not-allowed"
           }`}
@@ -73,6 +76,7 @@ const Update = () => {
           Update
         </button>
       </div>
+      <ToastContainer />
     </div>
   );
 };

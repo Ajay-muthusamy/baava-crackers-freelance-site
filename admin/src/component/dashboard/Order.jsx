@@ -8,7 +8,7 @@ const Order = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:1234/user/order-details');
+        const response = await axios.get('https://baava-backend-new-1.onrender.com/user/order-details');
         setOrders(response.data);
       } catch (error) {
         console.log('Error fetching data from the server:', error);
@@ -20,7 +20,7 @@ const Order = () => {
 
   const downloadPDF = async (orderId) => {
     try {
-      const response = await axios.get(`http://localhost:1234/pdf/generate-pdf/${orderId}`, {
+      const response = await axios.get(`https://baava-backend-new-1.onrender.com/pdf/generate-pdf/${orderId}`, {
         responseType: 'blob',
       });
       const url = window.URL.createObjectURL(new Blob([response.data]));
