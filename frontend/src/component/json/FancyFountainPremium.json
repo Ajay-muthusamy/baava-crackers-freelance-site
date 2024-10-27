@@ -1,10 +1,4 @@
-[
-    
-    {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283009.jpg",
-        "title":"Cartoon",
-        "price":17.00
-    },
+[   
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283054.jpg",
         "title":"Photo flash",
@@ -13,22 +7,17 @@
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283122.jpg",
         "title":"Bad Boy",
-        "price":330.00
+        "price":370.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283165.jpg",
         "title":"Pops",
-        "price":72.00
-    },
-    {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283368.jpg",
-        "title":"Snow Flakes",
-        "price":194.00
+        "price":99.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283446.jpg",
         "title":"Magic peacock",
-        "price":149.00
+        "price":189.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284518.jpg",
@@ -36,32 +25,15 @@
         "price":130.00
     },
     {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284564.jpg",
-        "title":"Dora singer",
-        "price":145.00
-    }
-    ,
-    {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284619.jpg",
-        "title":"Mottu patlu",
-        "price":230.00
-    }
-    ,
-    {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284706.jpg",
         "title":"Flames",
-        "price":110.00
+        "price":119.00
     }
     ,
-    {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284839.jpg",
-        "title":"utsav",
-        "price":330.00
-    },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723284995.jpg",
         "title":"Miracle pots",
-        "price":159.00
+        "price":150.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723285059.jpg",
@@ -69,19 +41,9 @@
         "price":150.00
     },
     {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723285224.jpg",
-        "title":"Try colour",
-        "price":230.00
-    },
-    {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287414.jpg",
-        "title":"Alice",
-        "price":135.00
-    },
-    {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287471.jpg",
         "title":"Siskin siren",
-        "price":283.00
+        "price":285.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287512.jpg",
@@ -94,14 +56,9 @@
         "price":35.00
     },
     {
-        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287666.jpg",
-        "title":"Whistle podu",
-        "price":134.00
-    },
-    {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287723.jpg",
         "title":"Bada peacock",
-        "price":389.00
+        "price":375.00
     },
     {
         "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723288313.jpg",
@@ -109,9 +66,23 @@
         "price":430.00
     },
     {
-        "image":"https://www.alagucrackers.in/uploads/noimage.jpg",
-        "title":"Sizzler",
-        "price":145.00
-    }
-
+        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723283368.jpg",
+        "title":"snow flakes",
+        "price":199.00
+    },
+    {
+        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723285114.jpg",
+        "title":"Colour Flash",
+        "price":270.00
+    },
+    {
+        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723285224.jpg",
+        "title":"Try Colour",
+        "price":270.00
+    },
+    {
+        "image":"https://www.alagucrackers.in/Best-Crackers-Online-Theni/1723287337.jpg",
+        "title":"Lion King",
+        "price":429.00
+    }   
 ]
